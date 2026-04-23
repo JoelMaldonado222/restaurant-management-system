@@ -1,50 +1,37 @@
-# Restaurant Phase 1
+# Restaurant Management System
 
-This is a Restaurant Data Management System built in Java. It was developed as part of the CEN 3024C course at Valencia College. The system is designed for restaurant managers to handle essential operations such as adding, removing, and updating employees and dishes, as well as calculating payroll and toggling whether the restaurant stays open late.
+A Java-based restaurant management system built for 
+CEN 3024C at Valencia College. Designed for restaurant 
+managers to handle core operations including employee 
+records, menu management, payroll calculation, and 
+business logic.
 
 ## Features
+- Add, remove, and update employee and dish records
+- Display formatted menu and employee list
+- Calculate total weekly payroll
+- Toggle open-late status for the restaurant
+- Input validation and error handling
+- CLI interface built with OOP principles
 
-- Add, remove, and update employee records  
-- Add, remove, and update dish records  
-- Display a formatted menu and employee list  
-- Toggle the restaurant's open late status  
-- Calculate total weekly payroll for all employees  
-- Input validation and error handling  
-- CLI-based interface using object-oriented programming  
+## Tech Stack
+Java 17 | SQLite | JUnit | IntelliJ IDEA | Git
 
 ## Project Structure
-
 src/
-├── Dish.java
 ├── Employee.java
+├── Dish.java
 ├── Restaurant.java
 ├── RestaurantApp.java
 ├── RestaurantAppGUI.java
 ├── DatabaseManager.java
 └── RestaurantAddTest.java
 
-
-## Technologies Used
-
-- Java 17  
-- IntelliJ IDEA  
-- JUnit for testing  
-- SQLite (planned for future integration)  
-- Git and GitHub for version control  
-
 ## How to Run
+1. Clone the repo
+2. Open in IntelliJ IDEA
+3. Run RestaurantApp.java for CLI
+4. Run RestaurantAddTest.java for JUnit tests
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/JoelMaldonado222/Restaurant-phase1-.git
-Open the project in IntelliJ IDEA.
-
-Run the RestaurantApp.java file to launch the CLI application.
-
-Run RestaurantAddTest.java to test core functionality using JUnit.
-
-Author
-Joel Maldonado
-Software Development Student
-Valencia College
-Passionate about Java, SQL, and building clean, real-world applications.
+## Author
+Joel Maldonado — Valencia College, Software Development
